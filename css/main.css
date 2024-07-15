@@ -7,16 +7,44 @@
 }
 
 @font-face {
-  font-family: Montserrat;
+  font-family: "Montserrat";
   src: url(../assets/fonts/Montserrat-VariableFont_wght.ttf);
 }
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", serif;
   background-color: #023047;
 }
 
 img {
   max-width: 100%;
+}
+
+.buttons {
+  display: flex;
+}
+
+.btn-1, .btn-2, .btn-3 {
+  display: inline-block;
+  padding: 11px 35px;
+  border: 2px solid #70e000;
+  border-radius: 25px;
+  margin-right: 25px;
+  font-size: 17px;
+  font-weight: 600;
+  color: #FFFFFF;
+}
+
+.btn-1:hover {
+  background-color: #38b000;
+  transition: 0.3s;
+  padding: 20px;
+  border-radius: 30px;
+}
+
+.btn-2 {
+  padding: 5px 25px;
+  background-color: #70e000;
+  margin-right: 0;
 }
 
 /*# sourceMappingURL=main.css.map */

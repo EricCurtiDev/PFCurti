@@ -1,0 +1,27 @@
+.buttons{
+    display: flex;
+}
+
+.btn-1, .btn-2, .btn-3{
+    display: inline-block;
+    padding: 11px 35px;
+    border: 2px solid $color-text-primary;
+    border-radius: 25px;
+    margin-right: 25px;
+    font-size: 17px;
+    font-weight: 600;
+    color: $color-text-secondary;
+}
+
+.btn-1:hover {
+    background-color: $color-background-secondary;
+    transition: 0.3s;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.btn-2{
+    padding: 5px 25px;
+    background-color: $color-text-primary;
+    margin-right: 0;
+}
