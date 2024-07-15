@@ -334,4 +334,13 @@ h3 {
   border-radius: 20px;
 }
 
+.top p {
+  color: #FFFFFF;
+  font-size: 20px;
+}
+
+.top span {
+  color: #38b000;
+}
+
 /*# sourceMappingURL=main.css.map */
