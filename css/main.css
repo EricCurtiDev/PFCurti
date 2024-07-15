@@ -6,4 +6,9 @@
   list-style: none;
 }
 
+@font-face {
+  font-family: Montserrat;
+  src: url(../assets/fonts/Montserrat-VariableFont_wght.ttf);
+}
+
 /*# sourceMappingURL=main.css.map */
