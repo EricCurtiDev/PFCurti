@@ -345,3 +345,16 @@ h3{
     }
 
 /*Final de Index Page*/
+
+/*Inicio de Info Page*/
+
+.top p{
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+.top span{
+    color: #38b000;
+}
+
+/*Final de Info Page*/
