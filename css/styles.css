@@ -430,3 +430,41 @@ h3{
     color: #92fe2D;
     transition: all ease 0.3s;
 }
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.field {
+    padding: 10px 20px;
+    background-color: #f7f7f7;
+    border-radius: 25px;
+    margin-right: 15px;
+    border: 1px solid #e8e8e8;
+    outline: none;
+    margin-bottom: 10px;
+}
+
+.form-content {
+    padding: 100px 0 70px 0;
+    text-align: center;
+}
+
+.form-content h2 {
+    font-size: 40px;
+    line-height: 90px
+    color: #3F3F3F;
+    margin-bottom: 25px;
+}
+
+.form-content .submit {
+    display: inline-block;
+    padding: 13px 45px;
+    font-size: 18px;
+    background-color: #92fe2D;
+    color: #FFFFFF;
+    border-radius: 25px;
+    border: 0;
+    cursor: pointer;
+}
