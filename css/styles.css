@@ -554,7 +554,7 @@ h3{
     border:3px solid transparent;
     letter-spacing: 1px;
     transition:.3s;
-    color:#fff;
+    color:#FFFFFF;
     
 }
 
@@ -607,7 +607,7 @@ h3{
     padding: 10px;
     outline: none;
     background: #92fe2D;
-    color:#fff;
+    color:#FFFFFF;
     border:none;
     transition: .1s;
     cursor: pointer;
