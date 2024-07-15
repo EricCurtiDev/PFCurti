@@ -358,3 +358,75 @@ h3{
 }
 
 /*Final de Info Page*/
+
+/*Inicio de News Page*/
+
+.blog-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+    flex-wrap: wrap;
+}
+
+.blog-box{
+    width: 350px;
+    background-color: #FFFFFF;
+    border: 1px solid #ececec;
+    box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.50);
+    transition: all 500ms ease-out;
+    margin: 20px;
+}
+
+.blog-box:hover{
+    transform: scale(1.1);
+}
+
+.blog-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.blog-txt{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.blog-txt span{
+    color: #38b000;
+    font-size: 0.9rem;
+}
+
+.blog-txt .blog-title{
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #272727;
+}
+
+.blog-txt .blog-title:hover{
+    color: #f33c3c;
+    transition: all ease 0.3s;
+}
+
+.blog-txt p{
+    color: #9b9b9b;
+    font-size: 0.9rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 20px 0px;
+}
+
+.blog-txt a{
+    color: #0f0f0f;
+}
+
+.blog-txt a:hover{
+    color: #92fe2D;
+    transition: all ease 0.3s;
+}
