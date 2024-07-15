@@ -139,3 +139,31 @@ nav.navbar ul li a:hover{
     padding: 20px;
     border-radius: 30px;
 }
+
+.top{
+    padding: 100px 0;
+    text-align: center;
+}
+
+h2{
+    color: #FFFFFF;
+    font-size: 35px;
+    margin-bottom: 45px;
+}
+
+.top-content{
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.top-content img{
+    width: 150px;
+    border-radius: 6px;
+    box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.50);
+    transition: all 500ms ease-out;
+}
+
+.top-content img:hover{
+    transform: scale(1.2);
+}
