@@ -8,3 +8,81 @@
 .top span{
     color: $color-text-tertiary;
 }
+
+@media (max-width:991px){
+    /*Home and Info pages*/
+    .menu{
+        padding: 20px;
+    }
+
+    .menu label{
+        display: initial;
+    }
+
+    .menu .navbar{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: #023047;
+        display: none;
+    }
+
+    .menu .navbar ul li a:hover{
+        color: #FFFFFF;
+    }
+
+    .menu .navbar ul li{
+        width: 100%;
+        text-align: center;
+    }
+
+    #menu:checked ~ .navbar{
+        display: initial;
+    }
+
+    .header{
+        min-height: 0vh;
+        padding: 80px 30px 50px 30px;
+    }
+
+    .header-txt{
+        text-align: center;
+        flex-basis: 100%;
+    }
+
+    .header-txt h1{
+        font-size: 50px;
+        margin-bottom: 15px;
+    }
+
+    .buttons{
+        justify-content: center;
+    }
+
+    .top{
+        display: none;
+    }
+
+    .product{
+        padding: 30px;
+    }
+
+    .product-content{
+        grid-template-columns: repeat(1,1fr);
+        gap: 30px;
+    }
+
+    .product-1 img{
+        width: 100%;
+    }
+
+    .footer{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .link ul{
+        margin-top: 20px;
+    }
+}
